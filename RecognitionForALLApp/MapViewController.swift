@@ -31,9 +31,12 @@ class MapViewController: UIViewController {
         sudan.title = "Sudan"
         sudan.subtitle = "Victory is Ours"
         map.addAnnotation(sudan)
+        
+        
 
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*
@@ -47,3 +50,5 @@ class MapViewController: UIViewController {
     */
 
 }
+
+
