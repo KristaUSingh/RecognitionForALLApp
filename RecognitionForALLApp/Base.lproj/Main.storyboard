@@ -281,12 +281,27 @@
                             <constraint firstItem="ufW-xH-7Ly" firstAttribute="width" secondItem="oBE-g0-JDW" secondAttribute="width" id="nlG-jZ-naH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="pzX-Qy-Z9D"/>
+                    <navigationItem key="navigationItem" id="eb8-32-LyQ"/>
                     <size key="freeformSize" width="414" height="1400"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8R-P5-nMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3600.0000000000005" y="753.34821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4KM-4m-A3S">
+            <objects>
+                <viewController id="Dnu-LK-U5h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLy-qZ-EAb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7dy-rQ-X5m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="My0-Kq-gCS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4468.115942028986" y="1035.9375"/>
         </scene>
         <!--Map-->
         <scene sceneID="PnH-Q0-nxS">
@@ -370,7 +385,7 @@
                                 <rect key="frame" x="20" y="292" width="115" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Name: Hira Usman                                          Email: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cSS-q8-3iF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Name: Hira Usman                                          Email:  hirau789@gmail.com" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cSS-q8-3iF">
                                 <rect key="frame" x="143" y="325" width="250" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -449,6 +464,41 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDJ-vJ-bKb">
+                                <rect key="frame" x="22" y="40" width="406" height="773"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S U D A N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMq-YC-fE2">
+                                        <rect key="frame" x="16" y="8" width="374" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="45"/>
+                                        <color key="textColor" red="0.32084364030000001" green="0.63692010310000002" blue="0.36270722179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="labelColor"/>
+                                        <size key="shadowOffset" width="4" height="4"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mini History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xK-zW-4uy">
+                                        <rect key="frame" x="16" y="84" width="374" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" systemColor="systemRedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="5" height="3"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjt-f6-GPR">
+                                        <rect key="frame" x="16" y="126" width="374" height="550"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Sudan had its darkest years in history during its two civil wars starting after it gained independence from Egypt and United Kingdom in 1956 up to 1972, and from 1983 to 2005, and the Darfur rebellion in 2003 two years before the second civil war was to be resolved. The first civil war that lasted more than 16 years involved ethnic, religious and economic conflicts between the Northern Sudanese people of Arab and Nubian origins and the Christians and animist Nilotes of Southern Sudan.  The 21-year second civil war attended by violence, famine and disease killed more than two million people, displaced four million others, and forced 600,000 to seek refuge in immediate neighbour countries. Sudan President Omar al-Bashir has been accused of war crimes and masterminding genocide in both the 21-year civil strife and the Darfur violence but which he has denied. A self-appointed President since leading a successful coup in 1989, he won two presidential elections in 1996 and 2010, with the last election being questioned by activists and an international crisis group for intimidation and gerrymandering activities by his ruling party.</mutableString>
+                                        <color key="textColor" red="0.73725490199999999" green="0.12549019610000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zkT-ZZ-Zpr"/>
                         <color key="backgroundColor" red="0.36862745099999999" green="0.36862745099999999" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -471,6 +521,12 @@
         </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
