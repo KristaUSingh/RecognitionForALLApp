@@ -17,6 +17,8 @@
 		2566AAC328870617004594D8 /* RecognitionForALLAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2566AAC228870617004594D8 /* RecognitionForALLAppTests.swift */; };
 		2566AACD28870617004594D8 /* RecognitionForALLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2566AACC28870617004594D8 /* RecognitionForALLAppUITests.swift */; };
 		2566AACF28870617004594D8 /* RecognitionForALLAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2566AACE28870617004594D8 /* RecognitionForALLAppUITestsLaunchTests.swift */; };
+		25731BDE28899E9C009281AF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25731BDD28899E9C009281AF /* ContactsViewController.swift */; };
+		25731BE02889AD33009281AF /* GuyanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25731BDF2889AD33009281AF /* GuyanaViewController.swift */; };
 		25892CE42888897D0036D4CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25892CE32888897D0036D4CC /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		2566AAC828870617004594D8 /* RecognitionForALLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecognitionForALLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2566AACC28870617004594D8 /* RecognitionForALLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionForALLAppUITests.swift; sourceTree = "<group>"; };
 		2566AACE28870617004594D8 /* RecognitionForALLAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionForALLAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25731BDD28899E9C009281AF /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		25731BDF2889AD33009281AF /* GuyanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuyanaViewController.swift; sourceTree = "<group>"; };
 		25892CE32888897D0036D4CC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +110,9 @@
 				2566AAA828870616004594D8 /* AppDelegate.swift */,
 				2566AAAA28870616004594D8 /* SceneDelegate.swift */,
 				25892CE32888897D0036D4CC /* MapViewController.swift */,
+				25731BDF2889AD33009281AF /* GuyanaViewController.swift */,
 				2566AAAC28870616004594D8 /* ViewController.swift */,
+				25731BDD28899E9C009281AF /* ContactsViewController.swift */,
 				2566AAAE28870616004594D8 /* Main.storyboard */,
 				2566AAB428870616004594D8 /* Assets.xcassets */,
 				2566AAB628870616004594D8 /* LaunchScreen.storyboard */,
@@ -269,6 +275,8 @@
 				2566AAA928870616004594D8 /* AppDelegate.swift in Sources */,
 				25892CE42888897D0036D4CC /* MapViewController.swift in Sources */,
 				2566AAAB28870616004594D8 /* SceneDelegate.swift in Sources */,
+				25731BE02889AD33009281AF /* GuyanaViewController.swift in Sources */,
+				25731BDE28899E9C009281AF /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
