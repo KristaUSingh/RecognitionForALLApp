@@ -10,11 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var arrowLabel: UILabel!
     
     @IBOutlet weak var rfaLogo: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        arrowLabel.text = "⬇\u{FE0E}"
         
         rfaLogo.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
         rfaLogo.layer.shadowOffset = CGSize(width: 5, height: 5)
